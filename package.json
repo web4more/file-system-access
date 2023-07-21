@@ -1,0 +1,21 @@
+{
+  "name": "@webfill/file-system-access",
+  "version": "1.0.0",
+  "description": "📂 showOpenFilePicker() and other FS access APIs for Node.js and others",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test:repl": "tsx --import ./index.test.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.4.2",
+    "prettier": "^3.0.0",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "@bindrs/rfd": "^2.2.2"
+  }
+}
